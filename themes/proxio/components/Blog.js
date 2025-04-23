@@ -70,18 +70,24 @@ export const Blog = ({ posts }) => {
                         </Link>
                       )}
                       {/* 遮罩层，仅覆盖图片部分 */}
-                      <div className='absolute inset-0 bg-gray-100 dark:bg-hexo-black-gray transition-all duration-500 group-hover:opacity-50 group-hover:bg-black' />
+                      <Link href={item?.href} className='block w-full h-full'>
+                        <div className='absolute inset-0 bg-gray-100/70 dark:bg-hexo-black-gray/70 transition-all duration-500 group-hover:opacity-50 group-hover:bg-black' />
+                      </Link>
                       {/* 鼠标悬停时显示的文字内容 */}
-                      <div className='absolute inset-0 flex items-center justify-center group-hover:scale-110 duration-200 group-hover:text-white'>
-                        {!coverImg && <p className='max-w-[370px] text-base text-body-color dark:text-dark-6 flex items-center justify-center duration-200 group-hover:text-white '>
-                          {item.summary}
-                        </p>}
-                        <LazyImage src={coverImg} className='absolute max-h-full object-cover' />
-                      </div>
+                      <Link href={item?.href} className='block w-full h-full'>
+                        <div className='absolute inset-0 flex items-center justify-center group-hover:scale-110 duration-200 group-hover:text-white'>
+                          {!coverImg && <p className='max-w-[370px] text-xl font-bold text-body-color dark:text-dark-6 flex items-center justify-center duration-200 group-hover:text-white '>
+                            {item.summary}
+                          </p>}
+                          {coverImg && (
+                            <LazyImage src={coverImg} className='absolute max-h-full object-cover' />
+                          )}
+                        </div>
+                      </Link>
                     </div>
                     {/* 内容部分 */}
                     <div className='relative z-10 p-4'>
-                      <span className='inline-blocktext-center text-xs font-medium leading-loose text-white'>
+                      <span className='inline-block text-center text-xs font-medium leading-loose text-white'>
                         {item.publishDay}
                       </span>
                       <h3>

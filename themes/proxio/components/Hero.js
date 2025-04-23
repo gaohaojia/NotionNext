@@ -17,15 +17,15 @@ export const Hero = props => {
             {/* <!-- ====== Hero Section Start --> */}
             <div
                 id='home'
-                className='h-screen relative overflow-hidden bg-primary '>
+                className='h-[66.67vh] relative overflow-hidden bg-primary '>
                 {/* 横幅图片 */}
                 {!bannerIframe && bannerImage && (
                     <LazyImage
                         priority
-                        className='w-full object-cover absolute h-screen left-0 top-0 pointer-events-none'
+                        className='w-full object-cover absolute h-full left-0 top-0 pointer-events-none'
                         src={bannerImage} />
                 )}
-                <iframe src={bannerIframe} className='w-full absolute h-screen left-0 top-0 pointer-events-none' />
+                <iframe src={bannerIframe} className='w-full absolute h-full left-0 top-0 pointer-events-none' />
                 {/* 阴影遮罩 */}
                 <div className='h-1/3 w-full absolute left-0 bottom-0 z-10'>
                     <div className='h-full w-full absolute group-hover:opacity-100 transition-all duration-1000 
