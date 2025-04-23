@@ -22,8 +22,20 @@ class MyDocument extends Document {
                 crossOrigin='anonymous'
               />
               <link
+                rel='preload'
+                href={"https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"}
+                as='style'
+                crossOrigin='anonymous'
+              />
+              <link
                 rel='stylesheet'
                 href={BLOG.FONT_AWESOME}
+                crossOrigin='anonymous'
+                referrerPolicy='no-referrer'
+              />
+              <link
+                rel='stylesheet'
+                href={"https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"}
                 crossOrigin='anonymous'
                 referrerPolicy='no-referrer'
               />

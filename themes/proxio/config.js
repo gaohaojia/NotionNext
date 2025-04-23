@@ -205,28 +205,29 @@ const CONFIG = {
         //         }
         //     ]
         // },
-        {
-            name: '其它链接',
-            menus: [
-                // { title: 'Github', href: 'https://github.com/gaohaojia' },
-                {
-                    title: 'Google Scholar',
-                    href: 'https://scholar.google.com/citations?user=EzzD3tAAAAAJ'
-                },
-                {
-                    title: 'ORCID',
-                    href: 'http://orcid.org/0009-0004-5415-5945'
-                },
-                // {
-                //     title: '技术讨论',
-                //     href: 'https://github.com/tangly1024/NotionNext/discussions'
-                // },
-                // {
-                //     title: '关于作者',
-                //     href: 'https://blog.tangly1024.com/about'
-                // }
-            ]
-        }],
+        // {
+        //     name: '其它链接',
+        //     menus: [
+        //         // { title: 'Github', href: 'https://github.com/gaohaojia' },
+        //         // {
+        //         //     title: 'Google Scholar',
+        //         //     href: 'https://scholar.google.com/citations?user=EzzD3tAAAAAJ'
+        //         // },
+        //         // {
+        //         //     title: 'ORCID',
+        //         //     href: 'http://orcid.org/0009-0004-5415-5945'
+        //         // },
+        //         // {
+        //         //     title: '技术讨论',
+        //         //     href: 'https://github.com/tangly1024/NotionNext/discussions'
+        //         // },
+        //         // {
+        //         //     title: '关于作者',
+        //         //     href: 'https://blog.tangly1024.com/about'
+        //         // }
+        //     ]
+        // }
+        ],
 
     PROXIO_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 

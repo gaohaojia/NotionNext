@@ -18,6 +18,24 @@ const SocialButton = () => {
             <i className='fab fa-github transform hover:scale-125 duration-150' />
           </a>
         )}
+        {siteConfig('CONTACT_ORCID') && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'ORCID'}
+            href={siteConfig('CONTACT_ORCID')}>
+            <i className='ai ai-orcid transform hover:scale-125 duration-150' />
+          </a>
+        )}
+        {siteConfig('CONTACT_GOOGLE_SCHOLAR') && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'google scholar'}
+            href={siteConfig('CONTACT_GOOGLE_SCHOLAR')}>
+            <i className='ai ai-google-scholar transform hover:scale-125 duration-150' />
+          </a>
+        )}
         {siteConfig('CONTACT_TWITTER') && (
           <a
             target='_blank'
