@@ -12,7 +12,7 @@ const CONFIG = {
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
     PROXIO_HERO_BUTTON_1_TEXT: '与我建立联系', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
-        'mailto:intelligent@gaohaojia.top', // 英雄区按钮
+        'mailto:me@gaohaojia.top', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_URL: 'https://github.com/gaohaojia', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
@@ -86,7 +86,7 @@ const CONFIG = {
         '数千位站长选择用NotionNext搭建他们的网站,通过帮助手册、交流社群以及技术咨询，大家成功上线了自己的网站',
 
     // 用户测评处的跳转按钮
-    PROXIO_TESTIMONIALS_BUTTON_URL: 'mailto:intelligent@gaohaojia.top',
+    PROXIO_TESTIMONIALS_BUTTON_URL: 'mailto:me@gaohaojia.top',
     PROXIO_TESTIMONIALS_BUTTON_TEXT: '联系我',
 
     // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
@@ -205,28 +205,29 @@ const CONFIG = {
         //         }
         //     ]
         // },
-        {
-            name: '其它链接',
-            menus: [
-                // { title: 'Github', href: 'https://github.com/gaohaojia' },
-                {
-                    title: 'Google Scholar',
-                    href: 'https://scholar.google.com/citations?user=EzzD3tAAAAAJ'
-                },
-                {
-                    title: 'ORCID',
-                    href: 'http://orcid.org/0009-0004-5415-5945'
-                },
-                // {
-                //     title: '技术讨论',
-                //     href: 'https://github.com/tangly1024/NotionNext/discussions'
-                // },
-                // {
-                //     title: '关于作者',
-                //     href: 'https://blog.tangly1024.com/about'
-                // }
-            ]
-        }],
+        // {
+        //     name: '其它链接',
+        //     menus: [
+        //         // { title: 'Github', href: 'https://github.com/gaohaojia' },
+        //         // {
+        //         //     title: 'Google Scholar',
+        //         //     href: 'https://scholar.google.com/citations?user=EzzD3tAAAAAJ'
+        //         // },
+        //         // {
+        //         //     title: 'ORCID',
+        //         //     href: 'http://orcid.org/0009-0004-5415-5945'
+        //         // },
+        //         // {
+        //         //     title: '技术讨论',
+        //         //     href: 'https://github.com/tangly1024/NotionNext/discussions'
+        //         // },
+        //         // {
+        //         //     title: '关于作者',
+        //         //     href: 'https://blog.tangly1024.com/about'
+        //         // }
+        //     ]
+        // }
+        ],
 
     PROXIO_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 

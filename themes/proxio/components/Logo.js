@@ -26,7 +26,7 @@ export const Logo = props => {
       // 何时显示浅色或白底的logo
       const homePageNavBar = router.route === '/' && scrollY < 10 // 在首页并且视窗在页面顶部
 
-      if (white || isDarkMode || homePageNavBar) {
+      if (white || isDarkMode) {
         setLogoTextColor('text-white')
       } else {
         setLogoTextColor('text-black')

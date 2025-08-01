@@ -3,7 +3,12 @@
  */
 module.exports = {
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-  CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'intelligent@gaohaojia.top', // 邮箱地址 例如mail@tangly1024.com
+  CONTACT_EMAIL:
+    (process.env.NEXT_PUBLIC_CONTACT_EMAIL &&
+      btoa(
+        unescape(encodeURIComponent(process.env.NEXT_PUBLIC_CONTACT_EMAIL))
+      )) ||
+    '', // 邮箱地址 例如mail@tangly1024.com
   CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || '', // 你的微博个人主页
   CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || '', // 你的twitter个人主页
   CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || 'https://github.com/gaohaojia', // 你的github个人主页 例如 https://github.com/tangly1024
@@ -14,5 +19,7 @@ module.exports = {
   CONTACT_YOUTUBE: process.env.NEXT_PUBLIC_CONTACT_YOUTUBE || '', // Youtube主页
   CONTACT_XIAOHONGSHU: process.env.NEXT_PUBLIC_CONTACT_XIAOHONGSHU || '', // 小红书主页
   CONTACT_ZHISHIXINGQIU: process.env.NEXT_PUBLIC_CONTACT_ZHISHIXINGQIU || '', // 知识星球
-  CONTACT_WEHCHAT_PUBLIC: process.env.NEXT_PUBLIC_CONTACT_WEHCHAT_PUBLIC || '' // 微信公众号 格式：https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=【xxxxxx】==#wechat_redirect
+  CONTACT_WEHCHAT_PUBLIC: process.env.NEXT_PUBLIC_CONTACT_WEHCHAT_PUBLIC || '', // 微信公众号 格式：https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=【xxxxxx】==#wechat_redirect
+  CONTACT_ORCID : process.env.NEXT_PUBLIC_CONTACT_ORCID || 'http://orcid.org/0009-0004-5415-5945', // ORCID 主页
+  CONTACT_GOOGLE_SCHOLAR : process.env.NEXT_PUBLIC_CONTACT_GOOGLE_SCHOLAR || 'https://scholar.google.com/citations?user=EzzD3tAAAAAJ', // Google学术主页
 }
