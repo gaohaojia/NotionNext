@@ -40,7 +40,7 @@ export const Footer = ({ title }) => {
               </span>
             </div>
             <div className='px-1'>{siteConfig('DESCRIPTION')}</div>
-            <div className='px-1'>{siteConfig('CONTACT_EMAIL')}</div>
+            {/* <div className='px-1'>{siteConfig('CONTACT_EMAIL')}</div> */}
           </div>
 
           {/* 右侧链接区块 */}
