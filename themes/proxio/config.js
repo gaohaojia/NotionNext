@@ -164,7 +164,7 @@ const CONFIG = {
     PROXIO_ABOUT_TEXT_1: '一个渴望借助机器人探索宇宙的 Coder',
     PROXIO_ABOUT_TEXT_2:
         '本人聚焦参与机器人学、计算机视觉和具身智能等相关领域的研究工作，并在实践中积累了一定的科研与工程经验。',
-    PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
+    PROXIO_ABOUT_PHOTO_URL: '/avatar.jpg',
     PROXIO_ABOUT_KEY_1: '一作发表论文',
     PROXIO_ABOUT_VAL_1: '2篇',
     PROXIO_ABOUT_KEY_2: '一作在投论文',
