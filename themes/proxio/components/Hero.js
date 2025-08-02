@@ -48,6 +48,9 @@ export const Hero = props => {
                             <p className='mx-auto mb-9 max-w-[600px] text-base font-medium  sm:text-lg sm:leading-[1.44]'>
                                 {siteConfig('PROXIO_HERO_TITLE_2', null, config)}
                             </p>
+                            <p className='mx-auto mb-9 max-w-[600px] text-base font-medium  sm:text-lg sm:leading-[1.44]'>
+                                {siteConfig('PROXIO_HERO_TITLE_3', null, config)}
+                            </p>
                             {/* 按钮组 */}
                             <ul className='mb-10 flex flex-wrap items-center justify-center gap-5'>
                                 {siteConfig('PROXIO_HERO_BUTTON_1_TEXT', null, config) && (
