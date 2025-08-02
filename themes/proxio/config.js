@@ -169,11 +169,11 @@ const CONFIG = {
     PROXIO_ABOUT_KEY_1: '一作发表论文',
     PROXIO_ABOUT_VAL_1: '2篇',
     PROXIO_ABOUT_KEY_2: '一作在投论文',
-    PROXIO_ABOUT_VAL_2: '3篇',
+    PROXIO_ABOUT_VAL_2: '4篇',
     PROXIO_ABOUT_KEY_3: '第一发明人专利',
     PROXIO_ABOUT_VAL_3: '1项',
     PROXIO_ABOUT_KEY_4: '国家级奖项',
-    PROXIO_ABOUT_VAL_4: '7项',
+    PROXIO_ABOUT_VAL_4: '10项',
 
     PROXIO_ABOUT_BUTTON_URL: 'https://aboutme.gaohaojia.top',
     PROXIO_ABOUT_BUTTON_TEXT: '关于我',
