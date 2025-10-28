@@ -86,7 +86,7 @@ const SocialButton = () => {
             target='_blank'
             rel='noreferrer'
             title={'email'}
-            href={`mailto:gaohaojia@emails.bjut.edu.cn`}>
+            href={`mailto:me@gaohaojia.top`}>
             <i className='fas fa-envelope transform hover:scale-125 duration-150' />
           </a>
         )}

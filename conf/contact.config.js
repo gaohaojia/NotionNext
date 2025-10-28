@@ -15,6 +15,6 @@ module.exports = {
   CONTACT_XIAOHONGSHU: process.env.NEXT_PUBLIC_CONTACT_XIAOHONGSHU || '', // 小红书主页
   CONTACT_ZHISHIXINGQIU: process.env.NEXT_PUBLIC_CONTACT_ZHISHIXINGQIU || '', // 知识星球
   CONTACT_WEHCHAT_PUBLIC: process.env.NEXT_PUBLIC_CONTACT_WEHCHAT_PUBLIC || '', // 微信公众号 格式：https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=【xxxxxx】==#wechat_redirect
-  CONTACT_ORCID : process.env.NEXT_PUBLIC_CONTACT_ORCID || 'http://orcid.org/0009-0004-5415-5945', // ORCID 主页
+  CONTACT_ORCID : process.env.NEXT_PUBLIC_CONTACT_ORCID || 'https://orcid.org/0009-0004-5415-5945', // ORCID 主页
   CONTACT_GOOGLE_SCHOLAR : process.env.NEXT_PUBLIC_CONTACT_GOOGLE_SCHOLAR || 'https://scholar.google.com/citations?user=EzzD3tAAAAAJ', // Google学术主页
 }
