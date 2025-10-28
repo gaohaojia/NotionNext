@@ -9,7 +9,7 @@ const CONFIG = {
     PROXIO_HERO_ENABLE: true, // 开启英雄区
     PROXIO_HERO_TITLE_1: '颢见万象，嘉行智途', // 英雄区文字
     PROXIO_HERO_TITLE_2: 'Vision the Cosmos, Navigate Intelligence.', // 英雄区文字
-    PROXIO_HERO_TITLE_3: '向下滚动，探索更多', // 英雄区文字
+    PROXIO_HERO_TITLE_3: '向下滚动 ⬇️ 探索更多', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
     PROXIO_HERO_BUTTON_1_TEXT: '与我建立联系', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
