@@ -26,7 +26,7 @@ const CONFIG = {
     // 文章区块
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
     PROXIO_BLOG_TITLE: '学术论文',
-    PROXIO_BLOG_COUNT: 2, // 首页博文区块展示前4篇文章
+    PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
     PROXIO_BLOG_TEXT_1: '我的最新动态',
 
     // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
@@ -167,13 +167,13 @@ const CONFIG = {
         '本人聚焦参与机器人学、计算机视觉和具身智能等相关领域的研究工作，并在实践中积累了一定的科研与工程经验。',
     PROXIO_ABOUT_PHOTO_URL: '/avatar.jpg',
     PROXIO_ABOUT_KEY_1: '一作发表论文',
-    PROXIO_ABOUT_VAL_1: '2篇',
-    PROXIO_ABOUT_KEY_2: '一作在投论文',
-    PROXIO_ABOUT_VAL_2: '4篇',
+    PROXIO_ABOUT_VAL_1: '4篇',
+    PROXIO_ABOUT_KEY_2: '合作发表论文',
+    PROXIO_ABOUT_VAL_2: '6篇',
     PROXIO_ABOUT_KEY_3: '第一发明人专利',
     PROXIO_ABOUT_VAL_3: '1项',
     PROXIO_ABOUT_KEY_4: '国家级奖项',
-    PROXIO_ABOUT_VAL_4: '10项',
+    PROXIO_ABOUT_VAL_4: '11项',
 
     PROXIO_ABOUT_BUTTON_URL: 'https://aboutme.gaohaojia.top',
     PROXIO_ABOUT_BUTTON_TEXT: '关于我',
