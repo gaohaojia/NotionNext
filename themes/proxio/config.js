@@ -72,8 +72,9 @@ const CONFIG = {
 
     // 生涯内容卡牌 ，title是标题 ，bio是备注，text是详情
     PROXIO_CAREERS: [
+        { title: '知有无界（深圳）智能科技有限公司', bio: '技术 VP', text: '专注船舶航运集装箱的机器人公司，参与公司主要技术路线制定和技术研发工作。' },
         { title: '清华大学 深圳国际研究生院', bio: '硕士', text: '已保研至清华大学攻读硕士学位，预计 2026 年 9 月入学，人工智能专业，研究方向为机器人及具身智能。' },
-        { title: '东莞市零态矩阵机器人有限责任公司', bio: '合伙创始人兼 CTO', text: '从 2024 年至今，负责公司的产品研发、技术指导等工作。' },
+        { title: '东莞市零态矩阵机器人有限责任公司', bio: '合伙创始人兼 CTO', text: '公司 2023 年注册，负责公司的产品研发、技术指导等工作。' },
         { title: '北京工业大学 PIP 战队（RoboMaster）', bio: '战队队长', text: '于 2024 赛季和 2025 赛季担任该战队队长，作为该战队目前唯一一个担任两个赛季的队长，带领战队参与全国大学生 RoboMaster 机器人竞赛，拿下多个国家级奖项。' },
         { title: '北京工业大学 P-BotClub 青年工程师协会', bio: '创立人', text: '于 2023 年创立北京工业大学 P-BotClub 青年工程师协会（社团），致力于促进青年人才的成长，推动科技创新。' },
         { title: '北京工业大学 樊恭烋荣誉学院', bio: '学士', text: '2022 年 9 月入学，预计 2026 年毕业，为 211、双一流学校，入学后二次选拔学院，人工智能专业。' },
@@ -169,9 +170,9 @@ const CONFIG = {
     PROXIO_ABOUT_KEY_1: '一作发表论文',
     PROXIO_ABOUT_VAL_1: '4篇',
     PROXIO_ABOUT_KEY_2: '合作发表论文',
-    PROXIO_ABOUT_VAL_2: '6篇',
-    PROXIO_ABOUT_KEY_3: '第一发明人专利',
-    PROXIO_ABOUT_VAL_3: '1项',
+    PROXIO_ABOUT_VAL_2: '7篇',
+    PROXIO_ABOUT_KEY_3: '发明专利',
+    PROXIO_ABOUT_VAL_3: '2项',
     PROXIO_ABOUT_KEY_4: '国家级奖项',
     PROXIO_ABOUT_VAL_4: '11项',
 
