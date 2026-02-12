@@ -31,7 +31,7 @@ export const Hero = props => {
   return (
     <>
       {/* <!-- ====== Hero Section Start --> */}
-      <div id='home' className='h-[66.67vh] relative overflow-hidden bg-primary '>
+      <div id='home' className='h-[100vh] relative overflow-hidden bg-primary '>
         {/* 横幅图片 */}
         {!bannerIframe && bannerImage && (
           <LazyImage
@@ -45,16 +45,14 @@ export const Hero = props => {
           className='w-full absolute h-full left-0 top-0 pointer-events-none'
         />
         {/* 阴影遮罩 */}
-        <div className='h-1/3 w-full absolute left-0 bottom-0 z-10'>
+        <div className='h-2/3 w-full absolute left-0 bottom-0 z-10'>
           <div
             className='h-full w-full absolute group-hover:opacity-100 transition-all duration-1000 
                     bg-gradient-to-b from-transparent to-white dark:to-black'
           />
         </div>
-      </div>
-      {/* 文字标题等 */}
-      <div className='w-full pb-15 dark:text-white'>
-        <div className='container -mx-4 flex flex-wrap items-center'>
+        {/* 文字标题等 */}
+        <div className='absolute inset-0 flex flex-col items-center justify-end w-full dark:text-white z-20'>
           <div className='w-full px-4'>
             <div
               className='hero-content wow fadeInUp mx-auto max-w-[780px] text-center'
