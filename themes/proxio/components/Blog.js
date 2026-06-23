@@ -88,7 +88,7 @@ export const Blog = ({ posts }) => {
                           className={`absolute inset-0 transition-all duration-500 group-hover:opacity-50 group-hover:bg-black ${
                             shouldShowCover
                               ? 'opacity-0'
-                              : 'bg-gray-100 dark:bg-hexo-black-gray'
+                              : 'bg-gray-100/70 dark:bg-hexo-black-gray/70'
                           }`}
                         />
                         {/* 鼠标悬停时显示的文字内容 */}
